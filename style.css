@@ -209,6 +209,7 @@ a{
     }
     select, .info-date{
         flex: 1 1 33.33%;
+        margin: 0 5px;
     }
     .section-principale, .div-footer{
         width: 80%;
@@ -241,10 +242,10 @@ a{
         25%{
             background-image: url("images/image1.jpg");
         }
-        75%{
+        50%{
             background-image: url("images/image2.jpg");
         }
-        80%{
+        75%{
             background-image: url("images/image3.jpg");
         }
         
