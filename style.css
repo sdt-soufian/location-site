@@ -191,6 +191,7 @@ a{
     .header-info{
         width: 80%;
         left: 10%;
+        top: 75%;
     }
     .header-info, .header-input{
         display: flex;
