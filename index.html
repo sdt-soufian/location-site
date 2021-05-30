@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>site exam</title>
+</head>
+<body>
+    <header>
+        <div class="conteneur">
+            <div class="image-header">
+            </div>
+            <div id="menu-icon"><i class="fas fa-bars fa-2x " style="margin-top: 6px"></i></div>
+            <div class="header-title">
+                <h1>Bienvenue à bord</h1>
+                <h5>Location de voiture 24h/24 et 7j/7</h5>
+            </div>
+            <div class="header-info">
+                <div class="header-input">
+                    <select  id="choix">
+                        <option value="1">Adresse de départ</option>
+                    </select>
+                    <div class="info-date">
+                        <input type="text" placeholder="Début de location">
+                        <div class="icon"><i class="fas fa-calendar-alt" style="margin-top: 5px"></i></div>
+                    </div>
+                    <div class="info-date">
+                        <input type="text" placeholder="Fin de location">
+                        <div class="icon"><i class="fas fa-calendar-alt"  style="margin-top: 5px"></i></div>
+                    </div>
+                </div>
+                <div id="btn-rech">
+                    <button class="btn-recherche">Valider ma recherche</button>
+                </div>
+            </div>
+            <div class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="#">Louer une voiture</a>
+                    </li>
+                    <li>
+                        <a href="#">Louer un utilitaire</a>
+                    </li>
+                    <li>
+                        <a href="#">Réserver un chauffeur</a>
+                    </li>
+                    <li>
+                        <a href="#">Decouvrez nos agences</a>
+                    </li>
+                    <li>
+                        <a href="#">Mon Compte</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="section-principale">
+            <div class="resultat flex">
+                <div class="voiture-Big">
+                   <div class="globale">
+                    <div class="voiture-image">
+                        <img src="audi/image1.jpg" alt="audi" id="image1">
+                        <img src="audi/image2.jpg" alt="audi" id="image2">
+                        <img src="audi/image3.jpg" alt="audi" id="image3">
+                    </div>
+                    <div class="btn-change" id="0">
+                        <button id="left" value="0"><i class="fas fa-caret-left fa-2x"></i></button>
+                        <button id="right" value=0><i class="fas fa-caret-right fa-2x"></i></button>
+                    </div>
+                   </div>
+                </div>
+                <div class="voiture-info">
+                    <h1>Audi</h1>
+                    <p>
+                        Diesel, 5 portes , GPS, AutoRadio, Forfait 1000 km (0,5/km supplémentaire),
+                    </p>
+                    <p>999 £-Agence de Paris</p>
+                    <button>Réserver et Payer</button>
+                </div>
+            </div>
+            <div class="resultat flex">
+                <div class="voiture-Big">
+                    <div class="globale">
+                     <div class="voiture-image">
+                         <img src="ford/image1.jpg" alt="ford" id="image1">
+                         <img src="ford/image2.jpg" alt="ford" id="image2">
+                         <img src="ford/image3.jpg" alt="ford" id="image3">
+                     </div>
+                     <div class="btn-change" id="1">
+                         <button id="left" value="1"><i class="fas fa-caret-left fa-2x"></i></button>
+                         <button id="right" value="1"><i class="fas fa-caret-right fa-2x"></i></button>
+                     </div>
+                    </div>
+                 </div>
+                 <div class="voiture-info">
+                    <h1>Ford</h1>
+                    <p>
+                        Diesel, 5 portes , GPS, AutoRadio, Forfait 1000 km (0,5/km supplémentaire),
+                    </p>
+                    <p>999 £-Agence de Paris</p>
+                    <button>Réserver et Payer</button>
+                </div>
+            </div>
+            <div class="resultat flex">
+                <div class="voiture-Big">
+                    <div class="globale">
+                     <div class="voiture-image">
+                         <img src="peaugeot/image1.jpg" alt="peaugeot" id="image1">
+                         <img src="peaugeot/image2.jpg" alt="peaugeot" id="image2">
+                         <img src="peaugeot/image3.jpg" alt="peaugeot" id="image3">
+                     </div>
+                     <div class="btn-change" id="2">
+                         <button id="left" value="2"><i class="fas fa-caret-left fa-2x"></i></button>
+                         <button id="right" value="2"><i class="fas fa-caret-right fa-2x"></i></button>
+                     </div>
+                    </div>
+                 </div>
+                 <div class="voiture-info">
+                    <h1>peaugeot</h1>
+                    <p>
+                        Diesel, 5 portes , GPS, AutoRadio, Forfait 1000 km (0,5/km supplémentaire),
+                    </p>
+                    <p>999 £-Agence de Paris</p>
+                    <button>Réserver et Payer</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="div-footer">
+            <img src="https://wf3.fr/evaluations/2018/html-css-js-finale/agence.jpg" alt="rue">
+            <div id="footer-info">
+                <h5>Notre Agence de Paris</h5>
+                <p>
+                    300 boulevard de vaugirad, 75015, Paris ouvert 7j/7 de 09h à 13h et de 14h à 20h
+                </p>
+                <p>
+                    01 49 78 21 33
+                </p>
+                <p>
+                    contact@vtc.com
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
