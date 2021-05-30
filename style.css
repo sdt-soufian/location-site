@@ -149,7 +149,8 @@ a{
     background-color: transparent;
     border: 0;
     outline: none;
-    color: white;
+    color: black;
+    cursor: pointer;
 }
 .resultat{
     margin: 8px 0;
