@@ -32,10 +32,6 @@ $(window).on('load', function(){
         if(y > $(this).parent().prev().children().length-1 || y == 0){
 			y= 0
 		}
-        if(y < 1){
-            y = 0;
-            $(this).parent().prev().children()[0]
-        }
     })
 
 })
