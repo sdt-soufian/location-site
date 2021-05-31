@@ -3,6 +3,7 @@
 $(window).on('load', function(){
     var block = $('div').find('.btn-change');
     var Bprincipale = $('.section-principale').children()
+    var a = ' ';
     console.log(Bprincipale)
     var liste = [$('#image1'), $('#image2'), $('#image3')]
     var y = 0;
@@ -14,16 +15,27 @@ $(window).on('load', function(){
         var btn = $(this)
         var ID = btn.parent().attr('id');
         if($(this).attr('id') == 'right'){
-            var a = $(this).parent().prev().children()[y++];
+            a = $(this).parent().prev().children()[y++];
             $(a).fadeIn().
             siblings().
             fadeOut()
             console.log(y)
             //console.log($(this).parent().prev().children()[y++])
         }
-        if(y > $(this).parent().prev().children().length-1 || y==0){
+        else if($(this).attr('id') == 'left'){
+            a = $(this).parent().prev().children()[y--];
+            $(a).fadeIn().
+            siblings().
+            fadeOut()
+            console.log(y)
+        }
+        if(y > $(this).parent().prev().children().length-1 || y == 0){
 			y= 0
 		}
+        if(y < 1){
+            y = 0;
+            $(this).parent().prev().children()[0]
+        }
     })
 
 })
