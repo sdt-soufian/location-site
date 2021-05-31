@@ -231,7 +231,7 @@ a{
     }
     .voiture-Big{
         flex: 1 1 30%;
-        height: 400px;
+        /*height: 300px;*/
     }
     /*changemet des images*/
     .image-header{
@@ -257,6 +257,10 @@ a{
     }
     .header-title h1, .header-title h5{
         color: black
+    }
+    .resultat{
+        align-items: center;
+        margin: 50px 0;
     }
 }
 
